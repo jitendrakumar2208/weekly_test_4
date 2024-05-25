@@ -1,0 +1,17 @@
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+ul {
+  flex: 3;
+}
+.avg {
+  background-color: gray;
+  color: #fff;
+  padding: 10px 17px;
+  font-size: 20px;
+  font-weight: 600;
+  gap: 20px;
+}

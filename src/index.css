@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 3rem 9%;
+  background-color: darkslateblue;
+}
+.container {
+  display: flex;
+  gap: 50px;
+}
+.emp {
+  min-width: 400px;
+  border: 2px solid yellowgreen;
+}
+.teams {
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 2px solid rgb(50, 159, 205);
+}
+.ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ul li {
+  width: 95%;
+  list-style: none;
+  margin: 10px 5px;
+  padding: 10px;
+  background: #b8b7b7;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ul li button {
+  padding: 5px 16px;
+  background-color: rgb(120, 120, 221);
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+.ul li .active {
+  display: block;
+}
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.teams .avg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.teams .ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 95%;
+}
+.teams .ul li {
+  list-style: none;
+  margin: 10px 5px;
+  padding: 10px;
+  background: #b8b7b7;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.teams .ul li button {
+  padding: 5px 16px;
+  background-color: rgb(120, 120, 221);
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+.disabled {
+  color: grey;
+}
+
+.disabled button {
+  display: none;
+}
